@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="PHOBIA — jogo de terror psicológico desenvolvido pela OwlGames.">
+  <title>PHOBIA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="scanlines"></div>
+
+  <header class="header" id="top">
+    <a class="brand" href="#inicio" aria-label="PHOBIA início">
+      <span class="brand-mark">P</span>
+      <span>PHOBIA</span>
+    </a>
+
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav">
+      <a href="#jogo">O jogo</a>
+      <a href="#fobias">Fobias</a>
+      <a href="#clinica">A clínica</a>
+      <a href="#personagens">Personagens</a>
+      <a href="#equipe">OwlGames</a>
+    </nav>
+    <a class="nav-cta" href="#trailer">TRAILER <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-vignette"></div>
+      <div class="hero-grid"></div>
+      <div class="hero-content reveal">
+        <div class="eyebrow"><span class="pulse"></span> OWLGAMES // PSYCHOLOGICAL HORROR</div>
+        <h1>PH<span>O</span>BIA</h1>
+        <p class="hero-tagline">O medo pode ser estudado.<br><strong>Mas você consegue suportá-lo?</strong></p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#jogo">ENTRAR NA CLÍNICA <span>→</span></a>
+          <a class="button button-ghost" href="#trailer"><span class="play">▶</span> VER TRAILER</a>
+        </div>
+      </div>
+      <div class="hero-status">
+        <span>ARQUIVO // 001</span>
+        <span>STATUS: <b>EM DESENVOLVIMENTO</b></span>
+      </div>
+      <div class="scroll-cue"><span></span> DESÇA</div>
+    </section>
+
+    <section class="section intro" id="jogo">
+      <div class="section-label reveal">01 // O JOGO</div>
+      <div class="intro-layout">
+        <div class="reveal">
+          <p class="kicker">VOCÊ FOI ENCAMINHADO.</p>
+          <h2>Nem todo tratamento<br>foi feito para <em>curar.</em></h2>
+        </div>
+        <div class="intro-copy reveal">
+          <p><strong>PHOBIA</strong> é um jogo de terror psicológico focado em atmosfera, narrativa e medo. Você assume o controle de <strong>Elian</strong>, um jovem que sofre com alucinações e é encaminhado para uma clínica psiquiátrica em busca de tratamento.</p>
+          <p>Sob a direção do Dr. Nero, os pacientes são submetidos a experiências de medo extremo. Cada experiência coloca Elian diante de uma nova fobia — e de um ambiente criado para levar seus limites ao máximo.</p>
+          <div class="quote">“O medo é uma reação. Nós só precisamos aprender a controlá-la.”<span>— Dr. Nero</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section fears" id="fobias">
+      <div class="section-head reveal">
+        <div>
+          <div class="section-label">02 // EXPERIÊNCIAS</div>
+          <h2>Suas fobias.<br><em>Suas regras.</em></h2>
+        </div>
+        <p>As experiências de PHOBIA são construídas ao redor de medos distintos. Cada ambiente possui sua própria identidade, mecânica e forma de pressionar o jogador.</p>
+      </div>
+
+      <div class="fear-grid">
+        <article class="fear-card fear-1 reveal">
+          <div class="card-number">01</div>
+          <div class="card-icon">◉</div>
+          <div class="card-info">
+            <span>EXPERIÊNCIA</span>
+            <h3>ARACNOFOBIA</h3>
+            <p>O que vive nas sombras pode estar mais perto do que você imagina.</p>
+          </div>
+        </article>
+        <article class="fear-card fear-2 reveal">
+          <div class="card-number">02</div>
+          <div class="card-icon">≈</div>
+          <div class="card-info">
+            <span>EXPERIÊNCIA</span>
+            <h3>TALASSOFOBIA</h3>
+            <p>Há lugares onde a escuridão não termina quando você fecha os olhos.</p>
+          </div>
+        </article>
+        <article class="fear-card fear-3 reveal">
+          <div class="card-number">03</div>
+          <div class="card-icon">□</div>
+          <div class="card-info">
+            <span>EXPERIÊNCIA</span>
+            <h3>CLAUSTROFOBIA</h3>
+            <p>Quanto menor o espaço, mais difícil fica respirar.</p>
+          </div>
+        </article>
+        <article class="fear-card fear-4 reveal">
+          <div class="card-number">04</div>
+          <div class="card-icon">☾</div>
+          <div class="card-info">
+            <span>EXPERIÊNCIA</span>
+            <h3>NICToFOBIA</h3>
+            <p>Quando a luz desaparece, sua mente começa a preencher o vazio.</p>
+          </div>
+        </article>
+      </div>
+      <p class="development-note">* As experiências apresentadas podem sofrer alterações durante o desenvolvimento.</p>
+    </section>
+
+    <section class="clinic" id="clinica">
+      <div class="clinic-image">
+        <div class="building">
+          <div class="building-light l1"></div><div class="building-light l2"></div>
+          <div class="building-light l3"></div><div class="building-light l4"></div>
+          <div class="building-light l5"></div><div class="building-light l6"></div>
+          <div class="building-light l7"></div><div class="building-light l8"></div>
+        </div>
+        <div class="fog fog-a"></div><div class="fog fog-b"></div>
+        <div class="coordinates">CLINICAL FACILITY // UNKNOWN<br>LAT 00°00'00" // LONG 00°00'00"</div>
+      </div>
+      <div class="clinic-copy reveal">
+        <div class="section-label">03 // A CLÍNICA</div>
+        <h2>Um lugar para<br><em>tratar</em> o medo.</h2>
+        <p>A clínica do Dr. Nero parece, à primeira vista, um lugar destinado ao tratamento. Mas seus métodos estão longe de serem convencionais.</p>
+        <div class="clinic-list">
+          <div><span>01</span><b>TRATAMENTO</b><small>Procedimentos experimentais</small></div>
+          <div><span>02</span><b>OBSERVAÇÃO</b><small>Pacientes monitorados</small></div>
+          <div><span>03</span><b>EXPERIÊNCIAS</b><small>Exposição ao medo extremo</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section characters" id="personagens">
+      <div class="section-label reveal">04 // ARQUIVOS DE PACIENTES</div>
+      <div class="character-layout">
+        <div class="character-portrait reveal">
+          <div class="portrait-grid"></div>
+          <div class="portrait-silhouette">E</div>
+          <span class="file-stamp">PATIENT<br>ACTIVE</span>
+          <span class="portrait-id">EL-001</span>
+        </div>
+        <div class="character-info reveal">
+          <span class="role">PACIENTE // PROTAGONISTA</span>
+          <h2>ELIAN</h2>
+          <p>Elian vive com alucinações que tornam difícil distinguir o que é real do que está acontecendo em sua própria mente. Após ser encaminhado à clínica, ele se torna parte das experiências conduzidas pelo Dr. Nero.</p>
+          <div class="stat-row">
+            <div><span>STATUS</span><b>EM TRATAMENTO</b></div>
+            <div><span>ARQUIVO</span><b>EL-001</b></div>
+          </div>
+          <div class="character-divider"></div>
+          <span class="role">RESPONSÁVEL PELA CLÍNICA</span>
+          <h3>DR. NERO</h3>
+          <p class="small">Um médico e pesquisador obcecado pela possibilidade de utilizar o medo como parte de uma descoberta científica.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="trailer" id="trailer">
+      <div class="trailer-content reveal">
+        <div class="section-label">05 // TRANSMISSÃO</div>
+        <h2>VOCÊ ESTÁ<br><em>PREPARADO?</em></h2>
+        <button class="trailer-button" id="trailerBtn"><span>▶</span> TRAILER EM BREVE</button>
+        <p>O trailer oficial de PHOBIA será disponibilizado durante o desenvolvimento.</p>
+      </div>
+    </section>
+
+    <section class="section team" id="equipe">
+      <div class="section-head reveal">
+        <div>
+          <div class="section-label">06 // DESENVOLVIMENTO</div>
+          <h2>Conheça a<br><em>OwlGames.</em></h2>
+        </div>
+        <p>Uma equipe independente unida para transformar uma ideia de terror em uma experiência jogável.</p>
+      </div>
+
+      <div class="team-grid">
+        <article class="member reveal"><div class="avatar">PL</div><span>01 // LÍDER</span><h3>PHELIPE LEWI</h3><p>Designer · Roteirista · Desenvolvedor</p></article>
+        <article class="member reveal"><div class="avatar">PM</div><span>02 // COLÍDER</span><h3>PEDRO MIKAELL</h3><p>Desenvolvedor · Tester</p></article>
+        <article class="member reveal"><div class="avatar">LG</div><span>03 // COLÍDER</span><h3>LUCAS GABRIEL</h3><p>Desenvolvedor · Roteirista</p></article>
+        <article class="member reveal"><div class="avatar">GA</div><span>04 // EQUIPE</span><h3>GABRIEL ABREU</h3><p>Roteirista</p></article>
+        <article class="member reveal"><div class="avatar">VC</div><span>05 // EQUIPE</span><h3>VITOR CÉSAR</h3><p>Roteirista · Designer · Tester</p><small>Inspiração para “Vitor”, um dos vilões da clínica.</small></article>
+        <article class="member reveal"><div class="avatar">LB</div><span>06 // EQUIPE</span><h3>LUCAS BENJAMIN</h3><p>Desenvolvedor · Modelador 3D</p></article>
+      </div>
+    </section>
+
+    <section class="section gallery">
+      <div class="section-label reveal">07 // REGISTROS VISUAIS</div>
+      <div class="gallery-grid">
+        <div class="gallery-box reveal"><span>CONCEPT ART</span><b>01</b></div>
+        <div class="gallery-box reveal"><span>ENVIRONMENT</span><b>02</b></div>
+        <div class="gallery-box reveal"><span>3D MODEL</span><b>03</b></div>
+      </div>
+      <p class="development-note">Galeria preparada para receber screenshots, concept arts e modelos 3D do projeto.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <div class="footer-logo">PHOBIA</div>
+      <p>Um projeto OwlGames.</p>
+    </div>
+    <div class="footer-links"><a href="#inicio">Início</a><a href="#jogo">O jogo</a><a href="#equipe">Equipe</a></div>
+    <div class="footer-copy">© <span id="year"></span> OWLGAMES<br>ALL RIGHTS RESERVED.</div>
+  </footer>
+
+  <div class="modal" id="modal">
+    <div class="modal-box">
+      <button class="modal-close" id="modalClose">×</button>
+      <span>TRANSMISSÃO // 001</span>
+      <h2>TRAILER EM BREVE</h2>
+      <p>O arquivo ainda está sendo preparado. Volte quando a OwlGames liberar a transmissão.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
